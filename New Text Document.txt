@@ -1,0 +1,38 @@
+I just started the week 2 E-Portfolio and I had a question.
+You added flex: 1 to a div so that the about me section takes the entire height.
+I didn't understand how adding another class and giving it a display: flex also makes its 
+children take the entire height as well. 
+
+Could you explain the BEM, I find that a little confusing. Should we try to match the 
+parent container? Like the block? 
+For the modifier after there's double underscore and then there's two dash, and 
+then if has another class, then there's one dash. Could you please explain this. 
+
+How to understand when to use the double dash, as in which is the modifier and which is the 
+element cause we are modifying both classes.
+
+What is the difference between 
+height: 100vh and min-height: 100vh
+
+give parent:
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+
+Now make children:
+flex: 1, so it will take remaining entire height.
+Now if want to give children also remaining height then add another class to this same class and
+add
+display: flex
+so now it's children will also have the remaining height of the page.
+
+Now let's say added another element below and want that only to have whole height.
+So, can add
+display: flex;
+flex-direction: column
+
+this we add to the children who also had remaining height
+
+and now can add:
+flex: 1;
+to the newly added children to give it the entire height.
