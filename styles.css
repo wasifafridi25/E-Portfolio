@@ -469,3 +469,156 @@ footer{
     transform: translateX(70px);
 }
 
+/*Large Phone, Tablets */
+
+@media (max-width: 768px) {
+    nav{
+        height: 68px;
+        padding: 12px 12px;
+    }
+
+    .personal__logo{
+        margin-top: 36px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .about-me__info--para{
+        font-size: 16px;
+    }
+
+    .about-me__info--container{
+        padding: 0 16px;
+    }
+
+    .language{
+        width: calc(100% / 3);
+    }
+
+    .project__description{
+        left: 40px;
+    }
+
+    .project__description--title{
+        font-size: 20px;
+    }
+
+    .project__description--para{
+        font-size: 16px;
+    }
+}
+
+/* Small Phones */
+
+@media (max-width: 500px) {
+
+    .project__description--link{
+        font-size: 16px;
+    }
+    
+    .project__description{
+        left: 35px;
+    }
+    
+    .project__description--title{
+        font-size: 16px;
+    }
+
+    .project__description--subtitle{
+        font-size: 14px;
+    }
+    
+    .project__description--para{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav__link:not(:last-child){
+        display: none;
+    }
+
+    .personal__logo{
+        margin-top: 24px;
+        font-size: 20px;
+        margin: 0 8px;
+    }
+
+    .project__description--para{
+        display: none;
+    }
+
+    .project__description--links{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .project__description--title{
+        line-height: 1;
+        text-align: center;
+    }
+
+    .project__description--subtitle{
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    .project__description{
+        left: 0;
+        width: 100%;
+    }
+
+    
+
+
+}
+
+
+/* @media (max-width: 403px) {
+
+    .project__description--link{
+        font-size: 16px;
+    }
+    
+    .project__description{
+        left: 30px;
+    }
+    
+    .project__description--title{
+        font-size: 14px;
+    }
+
+    .project__description--subtitle{
+        font-size: 12px;
+    }
+    
+    .project__description--para{
+        font-size: 10px;
+    }
+}
+@media (max-width: 365px) {
+
+    .project__description--link{
+        font-size: 16px;
+    }
+    
+    .project__description{
+        left: 10px;
+    }
+    
+    .project__description--title{
+        font-size: 12px;
+    }
+
+    .project__description--subtitle{
+        font-size: 10px;
+    }
+    
+    .project__description--para{
+        font-size: 8px;
+    }
+} */
+
